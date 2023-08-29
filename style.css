@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    height: 42px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.192), 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+#logo-udemy {
+    height: 37px;
+    width: 97px;
+    cursor: pointer;
+}
+
+.nav p {
+    width: 105px;
+    text-align: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #6e6e6e;
+    letter-spacing: -.02rem;
+}
+
+#pesquisar,
+#pesquisar:focus {
+    background-image: url('imagens/search.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #f7f9fa;
+    border: 1px solid #1c1d1f;
+    padding-left: 50px;
+    height: 47px;
+    border-radius: 30px;
+    width: 750px;
+    outline: none;
+    margin-right: 20px;
+}
+
+#pesquisar::placeholder {
+    letter-spacing: .2px;
+}
+
+#texto-udemy {
+    margin-right: 20px;
+}
+
+#carrinho-nav-bar {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 1px solid #2d2f31;
+    background-color: white;
+    height: 2.5rem;
+    font-size: 0.9rem;
+    width: 5.2rem;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.alterar-linguagem {
+    width: 2.5rem;
+}
+
+.alterar-linguagem img {
+    height: 19px;
+    width: 19px;
+}
+
+#cadastrar {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+}
+
+button:hover {
+    background-color: #50667c2a
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 50px 0px;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.container input {
+    height: 40px;
+    padding: 20px 0px 0px 15px;
+    width: 330px;
+    margin-bottom: 8px;
+    font-size: .9rem;
+}
+
+.input-container {
+    position: relative;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 33%;
+    left: 10px;  background-color: white; 
+    padding: 0 5px; 
+    font-weight: bold;
+    pointer-events: none;  transition: 0.3s; 
+  }
+
+
+input[type="text"]:focus+label,
+input[type="text"]:valid+label {
+    transition: all ease .3s;
+    transform: translateY(-80%);
+    font-size: .7rem;
+    color: rgb(56, 56, 56);
+}
+
+.container-linha-form {
+    display: flex;
+    gap: 2px;
+    margin: 5px 0px 12px 0px;
+}
+
+.linha-form {
+    background: #d1d7dc;
+    border-radius: 9999px;
+    height: 0.25rem;
+    width: 2.6rem;
+}
+
+#checkbox {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-color: #2d2f31;
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+#checkbox input:checked {
+    background: #2d2f31;
+}
+
+#input-checkbox {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+label {
+    font-size: 0.83rem;
+    letter-spacing: .2px;
+    line-height: 20px;
+    font-family: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    ;
+}
+
+.home button {
+    background-color: #a435f0;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    border: none;
+}
+
+.home button:hover{
+    background-color: #8e11e0;
+}
+
+.texto-termo {
+    display: flex;
+    margin: 15px 0px;
+    justify-content: center;
+    font-size: 0.72rem;
+    color: rgb(83, 83, 83);
+
+}
+
+#termos {
+    margin: 0px 2px;
+    text-decoration: underline;
+    text-underline-offset: .2rem
+}
+
+#politica-privacidade {
+    margin: 0px 2px;
+    text-decoration: underline;
+    text-underline-offset: .2rem;
+}
+
+.linha-horizontal {
+    width: 340px;
+    height: 1px;
+    background-color: rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+.conta-existente {
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: rgb(83, 83, 83);
+}
+
+#tem-conta-logar {
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+    color: #5624d0;
+    font-weight: 700;
+    padding-left: 2px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1c1d1f;
+    height: 380px;
+}
+
+.divisao-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.divisaoA-footer{
+    width: 700px;
+    display: flex;
+}
+
+footer h1 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.footer-titulo-roxo {
+    color: #cec0fc;
+    padding: 0px 5px;
+}
+
+.footer-titulo-roxo:hover{
+    text-decoration: underline;
+}
+
+.footer-img{
+    width: 750px;
+    display: flex;
+    justify-content: end;
+}
+
+footer .linha-horizontal{
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+}
+
+.container-listas{
+    display: flex;
+    gap: 155px;
+    width: 700px;
+}
+
+ul li{
+    color: white;
+    list-style: none;
+    font-weight: 400;
+    line-height: 2;
+    font-size: .84rem;
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
+.divisao2-footer{
+    display: flex;
+    justify-content: center;
+}
+
+#alterar-linguagem-footer{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0px 0px 3px 10px;
+    color: white;
+    background-color: #1c1d1f;
+    border: 1px solid white;
+    width: 140px;
+    font-size: .95rem;
+}
+
+#alterar-linguagem-footer:hover{
+    background-color: rgba(48, 48, 48, 0.336);
+}
+
+#alterar-linguagem-footer img{
+    margin-right: 10px;
+}
+
+.divisao3-footer{
+    width: 750px;
+    display: flex;
+    justify-content: end;
+}
+
+.divisao4-footer{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+}
+
+.divisao4-footer p{
+    color: white;
+    font-size: .75rem;
+}
+
+.container-imagem{
+    width: 700px;
+    display: flex;
+}
+
+.container-texto-footer{
+    width: 750px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+}
